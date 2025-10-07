@@ -30,7 +30,7 @@ func Closures() {
 
 func adder() func() int {
 	i := 0
-	fmt.Println("Previous valud of i =", i)
+	fmt.Println("Previous value of i =", i)
 	return func() int {
 		i++
 		fmt.Println("Added 1 to i")
